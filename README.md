@@ -2,6 +2,7 @@
 Codes for the paper Instrumental and Proximal Causal Inference with Gaussian Processes (GPIV and GPProxy)
 To reproduce the experiments, please download the files and run the code **main.py**.
 
+## Overview
 For GPIV on synthetic data, you may change the following configurations directly through the main.py:
 
 1. Number of simulations
@@ -13,6 +14,7 @@ Other three designs (GPIV on demand, GPProxy on synthetic and demand data) are a
 
 Some of the ablation study simulations and baselines are included in the file `GPIVProxyAblation`. It is also feasible to change the parameter in the `data_generation.py` to run some further ablation studies.
 
+## Related Paper
 The algorithms used in this repo came primarily out of the paper *Instrumental and Proximal Causal Inference with
 Gaussian Processes*. (https://arxiv.org/pdf/2603.02159). If you use GPIV or GPProxy in your research we would appreciate a citation to the paper.
 ```
@@ -24,4 +26,5 @@ Gaussian Processes*. (https://arxiv.org/pdf/2603.02159). If you use GPIV or GPPr
 }
 ```
 
-
+## Contact
+For questions and issues, please feel free to contact yuqi.zhang17@connect.hku.hk
