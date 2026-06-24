@@ -11,7 +11,7 @@ For GPIV on synthetic data, you may change the following configurations directly
 
 Other three designs (GPIV on demand, GPProxy on synthetic and demand data) are almost the same except that the true function are fixed.
 
-Some of the ablation study simulations and baselines are included in the file 'GPIVProxyAblation'. It is also feasible to change the parameter in the 'data_generation.py' to run some further ablation studies.
+Some of the ablation study simulations and baselines are included in the file `GPIVProxyAblation`. It is also feasible to change the parameter in the `data_generation.py` to run some further ablation studies.
 
 The algorithms used in this repo came primarily out of the paper *Instrumental and Proximal Causal Inference with
 Gaussian Processes*. (https://arxiv.org/pdf/2603.02159). If you use GPIV or GPProxy in your research we would appreciate a citation to the paper.
